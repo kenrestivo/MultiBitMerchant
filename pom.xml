@@ -150,6 +150,13 @@
           </exclusion>
         </exclusions>
       </dependency>
+
+	  <dependency>
+		<groupId>commons-logging</groupId>
+		<artifactId>commons-logging</artifactId>
+		<version>1.1.1</version>
+	  </dependency>
+	  
       <!-- Spring Context -->
       <dependency>
         <groupId>org.springframework</groupId>
@@ -523,7 +530,7 @@
                     <includes>**/*.*</includes>
                     <!-- excludes classes that are duplicated in MBM -->
                     <excludes>**/Peer.class, **/Peer$*.class,**/PeerGroup*.class,
-                      **/PendingTransactionListener.class
+                    **/PendingTransactionListener.class
                     </excludes>
                   </artifactItem>
                 </artifactItems>
