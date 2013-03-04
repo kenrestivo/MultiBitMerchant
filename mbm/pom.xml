@@ -168,7 +168,7 @@
     <!-- XChange for currency operations -->
     <dependency>
       <groupId>com.xeiam.xchange</groupId>
-      <artifactId>xchange</artifactId>
+      <artifactId>xchange-core</artifactId>
     </dependency>
     <dependency>
       <groupId>com.xeiam.xchange</groupId>

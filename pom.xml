@@ -28,7 +28,7 @@
     <spring-social.version>1.0.0.RELEASE</spring-social.version>
     <slf4j.version>1.6.1</slf4j.version>
     <logback.version>1.0.6</logback.version>
-    <bitcoinj.version>0.5.0</bitcoinj.version>
+    <bitcoinj.version>0.7.1</bitcoinj.version>
   </properties>
 
   <developers>
@@ -449,8 +449,8 @@
       <!-- XChange for currency operations -->
       <dependency>
         <groupId>com.xeiam.xchange</groupId>
-        <artifactId>xchange</artifactId>
-        <version>1.0.0</version>
+        <artifactId>xchange-core</artifactId>
+        <version>1.4.0</version>
         <!-- TODO XChange should not demand logback -->
         <exclusions>
           <exclusion>
@@ -462,7 +462,7 @@
       <dependency>
         <groupId>com.xeiam.xchange</groupId>
         <artifactId>xchange-mtgox</artifactId>
-        <version>1.0.0</version>
+        <version>1.4.0</version>
         <exclusions>
           <exclusion>
             <artifactId>logback-classic</artifactId>
